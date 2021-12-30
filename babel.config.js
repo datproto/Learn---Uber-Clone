@@ -9,6 +9,13 @@ module.exports = function(api) {
           "moduleName": "@env",
           "path": ".env",
         }
+      ],
+      [
+        "formatjs",
+        {
+          "idInterpolationPattern": "[sha512:contenthash:base64:6]",
+          "ast": true
+        }
       ]
     ]
   };
